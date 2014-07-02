@@ -1,0 +1,84 @@
+/* Custom  CSS */
+
+figcaption {
+	text-align: center;
+}
+small {
+	font-size: 80%;
+}
+.speaker-note {
+	font-size: 1px;
+	text-indent: -10000em;
+}
+.speaker-note {
+	list-style-type: none;
+}
+#what-it-takes {
+	width: 40%;
+	float: right;
+	margin: 0 8% 5% 0;
+}
+#what-it-takes li {
+	padding: 0;
+	color: #000;
+	text-align: right; 
+	font-size: 200%;
+	list-style-type: none;
+}
+
+.steps-all {
+	height: 900px;
+	background: transparent url(../img/graphics/stairs-background-faded.png) no-repeat center center;  
+}
+.step {
+	background: transparent no-repeat bottom right;
+	min-height: 700px;
+	margin: 0 auto;
+}
+.step ol {
+	width: 70%;
+}
+#step0 {
+  background-image: url(../img/graphics/team-stairs-0.png);
+}
+#step1 {
+  background-image: url(../img/graphics/team-stairs-1.png);
+}
+#step2 {
+  background-image: url(../img/graphics/team-stairs-2.png);
+}
+#step3 {
+  background-image: url(../img/graphics/team-stairs-3.png);
+}
+#step4 {
+  background-image: url(../img/graphics/team-stairs-4.png);
+}
+#step5 {
+  background-image: url(../img/graphics/team-stairs-5.png);
+}
+#step6 {
+  background-image: url(../img/graphics/team-stairs-6.png);
+}
+#step7 {
+  background-image: url(../img/graphics/team-stairs-7.png);
+}  
+#step8 {
+  background-image: url(../img/graphics/team-stairs-8.png);
+}
+#step9 {
+  background-image: url(../img/graphics/team-stairs-9.png);
+}
+.panel-span-three, .panel-left {
+	width: 49%;
+	float: left;
+}
+.panel-right {
+	width: 49%;
+	float: right;
+}
+.panel {
+	display: inline-block;
+}
+.span-two {
+	width: 32%;
+}

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <title>Designing Online Course Content for Universal Access</title>
+
+		<meta name="description" content="Web content accessibility for online courses.">
+    <meta name="author" content="Talieisn L. Smith">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" type="text/css" href="core/deck.core.css" media="screen">
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link rel="stylesheet" type="text/css" href="extensions/goto/deck.goto.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/menu/deck.menu.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/navigation/deck.navigation.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/status/deck.status.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/scale/deck.scale.css" media="screen">
+    
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link rel="stylesheet" type="text/css" href="themes/style/swiss.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="custom/custom.css" media="screen">
+    
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link rel="stylesheet" type="text/css" href="themes/transition/fade.css" media="screen">
+
+    
+    <!-- Basic black and white print styles -->
+    <link rel="stylesheet" type="text/css" href="core/print.css" media="print">
+    
+    <!-- Required Modernizr file -->
+    <script src="modernizr.custom.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="deck-container">
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+<section class="slide"> 
+  <h2>Designing <small>Online Course Content</small></h2>
+  <div class="vcenter">
+	<h1>for Universal Access</h1> 
+	<p><small><abbr title="Tat Institute for Fundamental Research">TIFR</abbr> Hyderabad, India, July 2014</small></p>  
+	</div>
+</section>   
+
+<section class="slide">
+  <h2>Formalities</h2>
+      <h3>Taliesin L. Smith</h3>
+         <ul>
+           <li>Instructional Designer &amp; Web Developer</li>
+           <li><abbr>DELTS</abbr>, Memorial University, St. John's, Newfoundland &amp; Labrador</li>
+           <li>tlsmith@mun.ca</li>
+           <li>GitHub: terracoda</li>
+           <li>Presentation at: <a href="https://github.com/terracoda/a11y-what-why-how">https://github.com/terracoda/a11y-what-why-how</a></li>
+         </ul> 
+</section>
+<section class="slide">
+	<h2>Who: People First</h2>
+  		<ul>
+  			<li>list</li>
+  			<li>list</li>
+			<li>list</li>
+  		</ul>  
+</section>
+<section class="slide">
+  <h2></h2>	
+    <figure class="panel-left">
+      <img src="img/istock-wheelchair-stairs-1.jpg" alt="Person in wheelchair at the bottom of large set of stairs.">	  
+    </figure> 
+	  <figure class="panel-left">
+	    <img src="img/istock-sign-ramp-backdoor.jpg"alt="Sign for accessible ramp at the backdoor.">
+	    <img src="img/istock-stairs-ramp.jpg"alt="Stairs and an accessible ramp at a building's entrance.">
+	  </figure> 	
+</section>
+
+<section class="slide">
+  <h2>Accessibility progression</h2>	
+    <figure class="panel-left">
+      <img src="img/istock-wheelchair-stairs-1.jpg" alt="Person in wheelchair at the bottom of large set of stairs.">	  
+    </figure> 
+	  <figure class="panel-left">
+	    <img src="img/istock-sign-ramp-backdoor.jpg"alt="Sign for accessible ramp at the backdoor.">
+	    <img src="img/istock-stairs-ramp.jpg"alt="Stairs and an accessible ramp at a building's entrance.">
+	  </figure> 	
+</section>
+
+<section class="slide">
+<h2>The web is a diverse place</h2>
+ <p class="speaker-note">Users employ a diverse range of technological devices, including <strong>assistive technologies &amp; adaptive strategies</strong>, to navigate the world and access content on the web.</p>
+    <figure class="panel span-two">
+			<img src="img/at-refreshable-braille.jpg" alt="">
+			<figcaption>Refreshable braille device.</figcaption>	
+	  </figure>
+
+   <figure class="panel span-two">
+	   <img src="img/at-kursweil-close-up.jpg" alt="Highlighted text showing where the cursor is.">
+	   <figcaption>Kurzweil 3000.</figcaption>
+   </figure>
+
+	<figure class="panel span-two">
+		<img style="height: 384px;" src="http://media02.hongkiat.com/diy-smartphone-tablet-accessories/binder-clip.jpg?new" alt="">
+		<figcaption><abbr>DIY</abbr> smart phone stand. <small><a href="http://www.hongkiat.com/blog/diy-smartphone-tablet-accessories/">honigkiat.com</a></small></figcaption>
+	</figure>
+</section>
+
+<section class="slide">
+  	<h2>Can these devices hit barriers?</h2>  
+		<p class="speaker-note">Like in the physical world web sites can and do have stairs. I created this stair analogy to show how each type of content, each piece of media and even design choices can present barriers?</p>
+     <figure>
+       <img src="img/graphics/stairs-nonum-withwords-grey.png" alt="Staircase diagram with 10 potiential stairs. The starir labels are: solid code base, text, link, images, tables, colour, forms,audio and video, mulitmedia, PDF.">
+     </figure>
+</section>
+	  
+<section class="slide">
+  <h2>Web standards &amp; best practices</h2> 
+  <p class="speaker-note">By using web standards and best practices many of these barriers can be avoided. Preventing these barriers is a <strong>team effort</strong> and  shift in <strong>design thinking</strong>.</p>
+    <figure>
+      <img src="img/graphics/stairs-composite.png" alt="Staircase with the steps filled in with a blue ramp.">
+    </figure>
+</section>
+
+<section class="slide">
+  <h2>Web Accessibility</h2>
+  <p class="speaker-note">Making sure that ramp gets built.</p> 
+  <div class="steps-all">
+    <blockquote style="width: 40%; border-left: none;">
+     <p><strong>Web Accessibility</strong> is the inclusive practice of making websites usable by people of all abilities and disabilities.</p>
+    </blockquote>
+
+	<ul class="slide" id="what-it-takes">
+      <li>Awareness</li>
+      <li>Skills</li>
+      <li>Resources</li>
+	  <li><strong>Lots of Team Work!</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Team Approach</h2>
+    <figure>
+      <img src="img/graphics/team-approach.png" alt="DELTS Course Development Team consists of: Producer, Multimedia Specialist, Content Author, Web Designer, Instructional Designer.">		  
+    </figure> 
+</section>
+
+<section class="slide">
+  <h2>Self-motivation works best</h2>
+    <figure style="float: left; width: 40%;">
+      <img src="img/icon-accessible-icon-project.png" alt="New Sign for International Access. A more active image.">
+      <figcaption>Sara Hendren, 2011. The Accessible Icon Project.</figcaption>
+    </figure> 
+
+        <blockquote style="border-left: none; padding-left: 50%">
+		  <p><a href="http://www.w3.org/TR/WCAG20/"><abbr>WCAG</abbr> 2.0, 2008</a></p>
+		  <ol class="slide">
+            <li>Perceivable</li>
+            <li>Operable</li>
+            <li>Understandable</li>
+            <li>Robust</li>
+          </ol>     
+	   </blockquote>
+</section>
+
+<!-- Steps/Ramp Explanations start here. -->   	   
+<section class="slide team">
+  <h2>0. A solid code base</h2>
+  <div class="step" id="step0">
+	<p class="speaker-note">Solid base = valid code = robust code.</p>
+	<p class="speaker-note">Code is invisible to most users, but not to assistive technology.</p> 
+	<ul class="speaker-note">
+	  <li>Code: AID &amp; Multimedia Specialists</li>
+	</ul>
+    <ol>
+      <li>
+      	<h3>Document Type</h3>
+		  <p class="speaker-note"><code>&lt;!DOCTYPE html&gt;</code></p>
+      	  <p class="speaker-note">The <em>doctype</em> is your website's building code. Use a strict doctype and validate your pages.</p>
+      </li>
+      <li>
+      	<h3>A Page Title</h3>
+		  <p class="speaker-note"><code>&lt;title&gt;A Unique Page Title&lt;/title&gt;</code></p>
+      	  <p class="speaker-note">A unique <em>title</em> clearly tells the user where he/she is. </p>
+      </li>
+      <li>
+      	<h3>Character Encoding</h3>
+		  <p class="speaker-note"><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code></p>
+      	  <p class="speaker-note">Ever see funny little symbols instead of letters and punctuation? <span class="speaker-note">It was likely having an encoding problem.</p>
+      </li>
+    </ol>
+ </div>
+ </section>
+			
+<section class="slide">
+  <h2>1. Text: accessible by nature</h2>
+  <p class="speaker-note">But text without structure is harder to navigate and to understand.</p>
+	<ul class="speaker-note">
+	  <li>Content: Instructor &amp; Instructional Designer</li>
+	  <li>Code: Assistant Instructional Designer</li>
+	</ul>
+    <div class="step" id="step1">	  	
+    <ol>
+      <li>
+	    <h3>Declare the language</h3>
+	    <p class="speaker-note">The browsers and assistive technologies such as screen readers need to know what language the content is written in, and it needs to made aware of language changes.</p>
+	    <p class="speaker-note"><code>&lt;html lang=&quot;en&quot;&gt;</code></p>
+		<p class="speaker-note"><code>&lt;q lang=&quot;fr&quot;&gt;Bonjour!&lt;/q&gt;</code></p>
+	  </li>
+	  <li>
+	    <h3>Code meaning into content</h3>
+	    <p class="speaker-note">By giving it meaning document structure: headings, lists, paragraphs, quotations, emphasis, tables, etc.</p>
+	  </li>
+	  <li>
+	    <h3>Natural linear order</h3>
+	    <p class="speaker-note">A user should be able to read the content from top to bottom (depending the language, of course) with styles turned off.</p> 
+	  </li>
+	  <li>
+	    <h3>Appropriate reading level</h3>
+	    <p class="speaker-note">Keep it as simple as possible.</p> 
+	  </li>	   
+    </ol>
+    <ul class="demo"> 
+	  <li><a href="demos-private/sample-course/demo-1-structure-patterns.html">{demo: meaningful structure}</a></li>
+	</ul>  
+  </div>
+</section>
+			
+<section class="slide">
+  <h2>2. Links &amp; Navigation</h2>
+    <div class="step"id="step2">
+	  <p class="speaker-note">The stepping stones of the internet. Well-planned navigation and meaningful links, help all users find their way.</p>
+	  <ul class="speaker-note">
+	  	<li>Content: Instructor, Instructional Designer, Copyright Officer</li>
+	  	<li>Code: Assistant Instructional Designer</li>
+	  </ul> 	
+      <ol>
+	    <li><h3>Keep navigation consistent</h3>
+            <p class="speaker-note">All users love consistency. Consistency has to persist in the code as well. As for a screen reader the heading hierarchy is a form of navigation.</p>
+        </li>
+		<li><h3><em>Skip to Content</em> links</h3>
+          <p class="speaker-note">Special links (often hidden) that provide a direct route to the main content are and other landmarks.</p>
+	  	  <p class="speaker-note"><abbr>HTML5</abbr> has a robust set of new landmark tags, special tags for way finding.</p>
+        </li>
+        <li><h3>Unique meaningful words</h3>
+            <p class="speaker-note">that make the meaning and function of the link clear will make links more usable and more accessible. Avoid generic <em>click here</em> statements.</p>
+        </li>
+      </ol>
+      <ul class="demo">
+	    <li><a href="http://www.webstandards.org/">{demo: skip to content}</a></li>
+	<li><a href="demos-private/hist-3806/demo-2-duplicate-links.html">{demo: <em>Titanic</em> copyright}</a></li>
+	  </ul>
+    </div>
+ </section>
+ 
+<section class="slide">
+  <h2>3. Images &amp; Charts</h2>
+  <div class="step" id="step3">
+	<p class="speaker-note">A text-based alternative for all meaningful visual content is required.</p>
+	<ul class="speaker-note">
+		<li>Content: Instructor, Instructional Designer</li>
+		<li>Code: Assistant Instructional Designer</li>
+	</ul> 
+    <ol>
+      <li><h3>Short descriptions</h3>
+		  <p class="speaker-note"><code>&lt;img src=&quot;image-file.jpg&quot; alt=&quot;Description.&quot; &gt;</code></p>
+		  <ul>
+		  	<li>alt text <em class="speaker-note">(hidden to visual user)</em></li>
+		  	<li>caption <em class="speaker-note">(visible to all users)</em></li>
+		  	<li>content <em class="speaker-note">(visible to everyone)</em></li>
+		  </ul>
+      </li>
+      <li><h3>Long descriptions</h3>
+  		  <p class="speaker-note">May need longer descriptions than is appropriate for the <code>alt</code> attribute.</p>
+      	  <ul>
+		    <li>Link to a supplementary description.</li>
+ 		    <li class="speaker-note">Goal: maintain the meaning of the document when the image is removed.</li>
+		  </ul>
+      </li>
+    </ol>
+	<ul class="demo">
+	  <li><a href="demos-private/ed-3650/demo-3-charts.html">{demo: long description}</a></li>
+	</ul>
+  </div> 
+</section>
+
+<section class="slide">
+  <h2>Composing <code>alt</code> text</h2>
+  <p class="speaker-note">Image content for the course, Music 2011.</p> 	
+	  <figure class="panel-left">
+	    <img src="http://www.theispot.com/images/source/Tim_O_Brien__Bowie_for_Rolling_Stone.jpg" alt="">
+	<figcaption>Ziggy Stardust on the cover of Rolling Stone magazine. <small>Illustration by Tim O&apos;Brien, Rolling Stone, Issue 1149, February 2, 2012. &copy; Rolling Stone LLC 2012. All Rights Reserved.</small></figcaption>
+	</figure>
+	<div class="panel-right">
+	  <ol>
+		<li class="slide">Rolling Stone Magazine</li>
+		<li class="slide">Ziggy Stardust</li>
+		<li class="slide">The Rise and Fall of Ziggy Stardust</li>
+		<li class="slide">Cover of Rolling Stone Magazine featuring a photo of David Bowie dressed as Ziggy Stardust, a flamboyant glam persona he created during the early 1970s.</li>
+	  </ul>
+	<p class="speaker-note">Not knowing the context, it is difficult to say, but I think option #3 is best.</p>
+	</div>
+</section>
+
+<section class="slide">
+  <h2>Titanic mistake</h2>   	
+    <a href="demos-private/hist-3806/demo-3-ld-titanic-mistake.html">
+	<figure>
+      <img src="http://theinspirationroom.com/daily/print/2007/6/denver-museum-titanic.jpg" alt="">
+      <figcaption>The Titanic's story in the shape of an iceberg.<br />
+	<small>Denver Museum of Natural History</small></figcaption>
+    </figure>
+   </a>
+</section>
+
+<section class="slide">
+  <h2>4. Tables</h2>
+    <div class="step" id="step4">
+      <p class="speaker-note">Use the rich set of semantic table mark-up that is available. This codes meaning into your table to help assistive technologies read it properly.</p>
+		 <ul class="speaker-note"> 
+		   <li>Content: Instructor, Instructional Designer</li>
+		   <li>Code: Assistant Instructional Designer</li>
+		 </ul>
+      <ol>
+		<li><h3>Keep tables simple</h3>
+			<p class="speaker-note">And use them for tabular data, only. CSS is for layout.</p>
+	    </li>
+      <li><h3>Caption your tables</h3>
+			<code class="speaker-note">&lt;caption&gt;Introduce the table here.&lt;/caption&gt;</code>
+			<p class="speaker-note">Table captions are associated directly with the table and give a visually impaired user a brief description of the data and the layout.</p>
+	    </li>       
+		<li><h3>Scope out direction</h3> 
+			<code class="speaker-note">&lt;th scope=&quot;row&quot;&gt;Describe the table here.&lt;/th&gt;</code>
+			<p class="speaker-note">Use the scope attribute to give the row or column content direction.</p>
+		</li> 
+      </ol>
+      <ul>
+	<li><a href="demos-private/lwso-1000/demo-4-tables-voting.html">{demo: tables}</a></li>
+	<li><a href="demos-private/ed-3650/demo-1-text.html">{demo: schedule (no tables)}</a></li>
+	</ul>   	   
+  </div>
+</section>
+
+<section class="slide">
+  <h2>5. Colour &amp; Layout</h2>
+    <div class="step" id="step5"> 
+	<p class="speaker-note">Design decisions such colour and layout need to be agreed upon at the beginning of project to ensure that accessible colours are chosen.</p>
+	<ul class="speaker-note">
+		<li>General Design Ideas: Instructional Designer</li>
+		<li>Web Design &amp; Code: Assistant Instructional Designer &amp; Multimedia Specialist</li>	
+	</ul>
+    <ol>  
+      <li><h3>Choose colours wisely</h3>
+      	<ul class="speaker-note">
+          <li><h4>Don't rely on colour alone for meaning</h4>
+      	      <p>Use formatting or icons to also communicate the meaning.</p></li>
+          <li><h4>Choose your standard <em class="speaker-note">(AA or AAA)</em></h4>
+			  <p>(4.5:1 or 7:1). Make it your practice to test for contrast.</p></li>
+		  <li><h4>Build awareness around <em>colour confusion</em></h4>
+			<p>The <abbr>WCAG</abbr> Samurai recommend trying the <a href="http://colorbrewer2.org/">Brewer palette</a>.</p>
+      	  </li>
+        </ul>
+      </li>
+	  <li><h3>Use <abbr>CSS</abbr> for design &amp; layout</h3>
+	    <p class="speaker-note">Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest bang in making your content accessible.</p>
+	  </li>
+    </ol>
+	<ul class="demos">
+	  <li><a href="demos-private/sample-course/mini-style-guide.html">{demo: MUN Academic}</a></li>
+	  <li><a href="demos-private/ed-4624/mini-style-guide.html">{demo: Coltrane}</a></li>
+	  <li><a href="http://www.csszengarden.com/">{demo: CSS zen garden}</a></li>
+	</ul>
+   </div>
+ </section>
+				
+<section class="slide">
+  <h2>6. Forms: complex by nature</h2>
+    <div class="step" id="step6">
+	<p class="speaker-note">Keep things simple. Don&apos;t ask for data you don't need.</p>
+    <ol>
+		<li><h3>Label all form controls</h3>
+			<p class="speaker-note">Associate a <code>label</code> to every form <code>control</code>.</p></li>
+    	<li><h3>Keep form elements organized</h3>
+			<p class="speaker-note">Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization and meaning.</p></li>
+	   <li><h3>Forms do things</h3>
+			<p>One may need to use WAI-ARIA (Accessible Rich Internet Applications)<br> to make forms fully accessible.</p></li>
+    </ol>
+    <p class="speaker-note"><strong>Note:</strong> Inaccessible forms &amp; complex data tables have been the basis for lawsuits.</p> 
+		
+		<ul class="speaker-note">
+			<li>Code &amp; Web Design: Multimedia Specialist</li>
+		</ul> 
+
+    </div>    
+</section>
+				
+<section class="slide">
+  <h2>7. Video &amp; Audio</h2>
+    <div class="step" id="step7">
+		 <ul class="speaker-note">
+				<li>Content: Video/Audio Producer</li>
+				<li>Conversion to web format: Multimedia</li> 
+				<li>Code: Assistant Instructional Designer</li> 
+			</ul>
+	<ol>
+	  <li><h3>No auto play</h3>
+		<p class="speaker-note">Leave control with the user.</p>
+		</li>
+	  <li><h3>Text alternatives include:</h3></p>
+          <ul>
+            <li>Accessible Transcripts <a href="demos-private/ed-3650/demo-7-video.html">{demo}</a></li>
+            <li>Captions (closed or open)</li>
+            <li>Audio description (aka video description)</li>
+          </ul>
+	  </li>
+    </ol>
+	<h3>AccessForEveryone on YouTube</h3>
+    <ul>
+      <li><a href="http://www.youtube.com/watch?v=rx2Elu7Ik3Y">Andy Griffith Show</a> - captions &amp; audio description with synthetic speech</li>   
+      <li><a href="http://www.youtube.com/watch?v=qsYMhHctB0s">Andy Griffith Show</a> - audio description with a human voice</li>
+    </ul>
+       
+   </div> 
+ </section>
+<section class="slide">
+  <h2>8. Multimedia</h2>
+    <div class="step" id="step8">
+	<ul class="speaker-note">
+	  <li>Code &amp; Web Design: Multimedia Specialist</li>
+	</ul>
+	<p>Interactive web components such games and learning activities are <strong>complex</strong>.</p>
+    <ol>
+      <li>WAI-ARIA: Accessible Rich Internet Applications</li>
+      <li>Graceful degradation techniques.</li>
+	  <li>Test.</li>
+	  <li>Provide equivalent alternatives.</li>
+    </ol>
+	<ul class="demos">
+	  <li><a href="demos-private/lwso-1000/demo-8-tool-tips.html">{demo: tool tips}</a></li>
+	</ul>   
+   </div> 
+</section>
+
+<section class="slide">  
+  <h2>9. PDF</h2> 
+	<div class="step" id="step9"> 
+    <ul>
+  	  <li>PDF has its own standard.</li>
+      <li>Must be tagged to be accessible.</li>
+	  <li>Can it be converted to <abbr>HTML</abbr>? Is it feasible?</li>
+    </ul>    
+   </div>
+ </section>	
+
+<section class="slide">
+  <h2><q>Accessibility is a design tool</q></h2>   	
+  <div class="steps-all">
+	  <blockquote style="width: 40%; border-left: none;">
+        <p>[...] organizations need to look at accessibility as a design tool and not simply as list of requirements with which they must comply.</p>
+    	  <small>-Derek Featherstone, 2013</small>
+    </blockquote>
+  </div> 
+</section>
+  	
+<section class="slide">
+  <h2>Thinking accessibility first</h2> 
+	<blockquote class="speaker-note">
+		<p>14% of Canadians self-identify as having a disability.</p>
+		<small>(2006 Canadian Census)</small>
+	</blockquote>
+	<figure>
+      <img src="img/graphics/people-statistic.jpg" style="height: 50%;" alt="Visualization of the 20% percent of the population that has a disability.">
+    </figure>
+	<blockquote class="speaker-note">
+		<p>55% [of American cell phone owners] use their phone to go online&hellip; 31% of [these] current cell internet users say that they <strong>mostly go online using their cell phone</strong>.</p>
+		<small><a href="http://www.pewinternet.org/2012/06/26/cell-internet-use-2012/">(2012 Pew Research)</a></small>
+	</blockquote>
+</section>
+
+<section class="slide">
+  <div class="panel-span-three">
+  <h2>Resources</h2>
+    <ul> 
+		 <li>Horton, S. &amp; Quesenbery, W. (2014) <em>A Web For Everyone.</em> <a href="http://rosenfeldmedia.com/books/a-web-for-everyone/">http://rosenfeldmedia.com/books/a-web-for-everyone/</a></li>
+    	<li>Clark, J. (2003) <em>Building accessible websites.</em> Indianapolis: New Riders.</li>
+<li>Smith, T. (2014) <em>Making Web Content Accessibile in 10 Steps or Less</em> <a href="http://www.delts.mun.ca/oew.php">http://www.delts.mun.ca/oew.php</a></li>
+    	<li>Accessible Icon Project: <a href="http://www.accessibleicon.org/">http://www.accessibleicon.org/</a></li>
+    	<li><abb>W3C</abb>: <a href="http://www.w3.org/">http://www.w3.org/</a></li>
+    	<li><abbr>WAI</abbr>: <a href="http://www.w3.org/WAI/">http://www.w3.org/WAI/</a></li>
+		<li><abbr>WCAG 2.0</abbr>: <a href="http://www.w3.org/WAI/WCAG20/glance/Overview.html">http://www.w3.org/WAI/WCAG20/glance/Overview.html</a></li>
+		<li>WCAG Samurai: <a href="http://www.wcagsamurai.org/">http://www.wcagsamurai.org/</a></li>
+		<li>WCAG 1.0: <a href="http://www.w3.org/TR/WAI-WEBCONTENT/">http://www.w3.org/TR/WAI-WEBCONTENT/</a></li>
+		<li><abbr>WebAIM</abbr>: <a href="http://webaim.org/">http://webaim.org/</a></li> 
+    	<li>Wave Accessibility Evaluation Tool: <a href="http://wave.webaim.org">http://wave.webaim.org/</a></li>   	
+    	<li>Wikipedia: <a href="http://wikipedia.org/">http://wikipedia.org/</a></li>
+		<li>Deck.js: <a href="http://imakewebthings.com/deck.js/">http://imakewebthings.com/deck.js/</a></li>
+    </ul> 
+</div>
+<div class="panel-span-three">
+	<h2>&amp; Special Thanks</h2>
+	  <ul>
+	  	<li>A big thanks to Andrea Quigley for help with graphics and to Stacey Alexander for sharing her Ziggy Stardust alt-text story.</li>
+	   <li>Thanks to Ruth Hickey, for supporting my conference request and to the CUPE 1615 <abbr titl="Professional Development">PD</abbr> Fund for funding half the trip.</li>
+	  </ul> 
+ </div> 
+</section>
+
+	<!-- Sample Slides -->
+	<!--
+    <section class="slide">
+		<h2>Slide Heading</h2>
+  	  		<ul>
+  	  			<li>list</li>
+  	  			<li>list</li>
+				<li>list</li>
+  	  		</ul>  
+    </section>
+	<section class="slide">
+	  <h2>00 Step Slide Heading</h2>
+	    <div class="step" id="0">
+	      <p>Intro text.</p>
+  	      <ol>
+  	        <li>list</li>
+  	        <li>list</li>
+	        <li>list</li>
+  	      </ol>
+ 	      <p><a href="#">{demo}</a></p>
+      </div>
+    </section>
+
+	<section class="slide">
+	  <h2>Images: 2 panels</h2>
+		<p class="speaker-note">Speaker note.</p>
+	    <figure class="panel-left">
+	      <img src="http://placehold.it/600x600" alt="">    
+	    </figure> 
+		  <figure class="panel-left">
+		    <img src="http://placehold.it/400x275" alt="">
+		    <img src="http://placehold.it/400x275" alt="">
+		  </figure> 	
+	</section>
+
+	<section class="slide">
+	<h2>Images: 3 panels (6 column grid)</h2>
+	 <p class="speaker-note">Speaker note.</p>
+	    <figure class="panel span-two">
+				<img src="http://placehold.it/300x400" alt="">
+				<figcaption>Caption.</figcaption>	
+		  </figure>
+
+	   <figure class="panel span-two">
+		   	<img src="http://placehold.it/300x400" alt="">
+			<figcaption>Caption.</figcaption>
+	   </figure>
+
+		<figure class="panel span-two">
+			<img src="http://placehold.it/300x400" alt="">
+			<figcaption>Caption.</figcaption>
+		</figure>
+	</section>
+	-->
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div>
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
