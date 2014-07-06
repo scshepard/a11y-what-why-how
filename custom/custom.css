@@ -67,17 +67,17 @@ small {
 }
 #step9 {
   background-image: url(../img/graphics/team-stairs-9.png);
+} 
+.panel {
+	display: inline-block;
 }
 .panel-span-three, .panel-left {
-	width: 49%;
+	width: 45%;
 	float: left;
 }
 .panel-right {
-	width: 49%;
+	width: 45%;
 	float: right;
-}
-.panel {
-	display: inline-block;
 }
 .span-two {
 	width: 32%;
