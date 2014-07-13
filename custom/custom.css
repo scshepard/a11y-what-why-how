@@ -6,10 +6,10 @@ figcaption {
 small {
 	font-size: 80%;
 }
-/*.speaker-note {
+.speaker-note {
 	font-size: 1px;
 	text-indent: -10000em;
-}  */
+}
 .speaker-note {
 	list-style-type: none;
 } 
