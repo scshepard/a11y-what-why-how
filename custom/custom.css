@@ -37,8 +37,40 @@ small {
 }
 .step ol {
 	width: 70%;
-}
+} 
+/*Stair Images (individual stairs) */
 #step0 {
+  background-image: url(../img/graphics/individual-stairs-0.png);
+}
+#step1 {
+  background-image: url(../img/graphics/individual-stairs-1.png);
+}
+#step2 {
+  background-image: url(../img/graphics/1ndividual-stairs-2.png);
+}
+#step3 {
+  background-image: url(../img/graphics/individual-stairs-3.png);
+}
+#step4 {
+  background-image: url(../img/graphics/individual-stairs-4.png);
+}
+#step5 {
+  background-image: url(../img/graphics/individual-stairs-5.png);
+}
+#step6 {
+  background-image: url(../img/graphics/individual-stairs-6.png);
+}
+#step7 {
+  background-image: url(../img/graphics/individual-stairs-7.png);
+}  
+#step8 {
+  background-image: url(../img/graphics/individual-stairs-8.png);
+}
+#step9 {
+  background-image: url(../img/graphics/individual-stairs-9.png);
+}
+/*Stair Images that include team graphic */
+/*#step0 {
   background-image: url(../img/graphics/team-stairs-0.png);
 }
 #step1 {
@@ -67,7 +99,7 @@ small {
 }
 #step9 {
   background-image: url(../img/graphics/team-stairs-9.png);
-} 
+}  */
 .panel {
 	display: inline-block;
 }
