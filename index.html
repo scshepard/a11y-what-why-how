@@ -350,77 +350,75 @@
 <section class="slide">
   <h2>4. Tables</h2>
     <div class="step" id="step4">
-      <p class="speaker-note">Use the rich set of semantic table mark-up that is available. Visually we can see the the relationships between the rows and columns of data. In code, column headers and and row headers with the scope attribute explain this tabular relationship. Using the appropriate HTML code elements, the structural meaning of the table can be understood by assistive technologies The meaning can then be passed on to the user.</p>
+      <p class="speaker-note">Use the rich set of semantic table mark-up that is available. Visually we can see the the relationships between the rows and columns of data. In code, column headers and row headers together with the scope attribute are needed to explain this tabular relationship. Using the appropriate HTML code elements and attributes, the structural meaning of the table can be understood by assistive technologies. The structural meaning can then be passed on to the user.</p>
 		 <ul class="speaker-note"> 
 		   <li>WCAG: Perceivable, Understandable, Robust</li>
 		 </ul>
-      <ul>
-		<li><h3>Keep tables simple</h3>
-			<p class="speaker-note">And use them for tabular data, only. CSS is for layout.</p>
+     <ul>
+			<li><h3>Keep tables simple</h3>
+				<p class="speaker-note">And use them for tabular data, only. CSS is for layout.</p>
 	    </li>
       <li><h3>Caption your tables</h3>
-			<code class="speaker-note">&lt;caption&gt;Introduce the table here.&lt;/caption&gt;</code>
-			<p class="speaker-note">Table captions are associated directly with the table and should briefly describe the data and the layout.</p>
+				<code class="speaker-note">&lt;caption&gt;Introduce the table here.&lt;/caption&gt;</code>
+				<p class="speaker-note">Table captions are associated directly with the table and should briefly describe the data and the layout.</p>
 	    </li>       
-		<li><h3>Scope out direction</h3> 
-			<code class="speaker-note">&lt;th scope=&quot;row&quot;&gt;Describe the table here.&lt;/th&gt;</code>
-			<p class="speaker-note">Use the scope attribute like labels for rows and columns (shows the relationships of the data).</p>
-		</li> 
-      </ul>
-      <ul>
-	<li><a href="demos-private/lwso-1000/demo-4-tables-voting.html">{demo: tables}</a></li>
-	<li><a href="demos-private/ed-3650/demo-1-text.html">{demo: schedule (no tables)}</a></li>
-	</ul>   	   
-  </div>
+			<li><h3>Scope out direction</h3> 
+				<code class="speaker-note">&lt;th scope=&quot;row&quot;&gt;Describe the table here.&lt;/th&gt;</code>
+				<p class="speaker-note">Use the scope attribute like labels for rows and columns (shows the relationships of the data).</p>
+			</li> 
+		</ul>
+		<ul>
+			<li><a href="demos-private/lwso-1000/demo-4-tables-voting.html">{demo: tables}</a></li>
+			<li><a href="demos-private/ed-3650/demo-1-text.html">{demo: schedule (no tables)}</a></li>
+		</ul>   	   
+	</div>
 </section>
 
 <section class="slide">
-  <h2>5. Colour &amp; Layout</h2>
+  <h2>5. Colour, (Typography) &amp; Layout</h2>
     <div class="step" id="step5"> 
-	<p class="speaker-note">Accessible design specifications such colour and layout need to be clearly defined at the beginning of a project to ensure that accessible choices are made.</p>
+	<p class="speaker-note">Accessible design specifications such colour, colour contrast, typography and layout are critical as they are fundamental design choices that cascade through the entire project. It is best to clearly define the accessibility requirements at the beginning of a project, so everyone on the team understands the design parameters.</p>
 	<ul class="speaker-note">
 		<li>WCAG: Perceivable, Robust</li>	
 	</ul>
     <ul>  
-      <li><h3>Choose colours wisely</h3>
+      <li><h3>Choose colours (and fonts) wisely</h3>
       	<ul class="speaker-note">
           <li><h4>Don't rely on colour alone for meaning</h4>
       	      <p>Use formatting or icons to also communicate the meaning.</p></li>
           <li><h4>Test for contrast</h4>
-			  <p>4.5:1 AA or 7:1 AAA. Make it your team's practice to test.</p></li>
-		  <li><h4>Build awareness around <em>colour confusion</em></h4>
-			<p>The <abbr>WCAG</abbr> Samurai recommend trying the <a href="http://colorbrewer2.org/">Brewer palette</a>.</p>
-      	  </li>
-        </ul>
-      </li>
-	  <li><h3>Use <abbr>CSS</abbr> for design &amp; layout</h3>
-	    <p class="speaker-note">Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest results when reaching the <abbr title="Perceivable, Operale, Understandable, Robust">POUR</abbr> principles.</p>
-	  </li>
+			  			<p>4.5:1 AA or 7:1 AAA. Make it your team's practice to test.</p></li>
+		  		<li><h4>Build awareness around <em>colour confusion</em></h4>
+							<p>It's not that people who are colourblind can't see colour - they will more likely confuse colour. The <abbr>WCAG</abbr> Samurai recommend trying the <a href="http://colorbrewer2.org/">Brewer palette</a>.</p></li>
+        </ul></li>
+	  	<li><h3>Use <abbr>CSS</abbr> for design &amp; layout</h3>
+	    	<p class="speaker-note">Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest gains when aiming to achieve the <abbr title="Perceivable, Operale, Understandable, Robust">POUR</abbr> principles. Avoid formatting with <abbr title="What You See Is What You Get">WYSIWYG</abbr> editor.</p>
+	  	</li>
     </ul>
-	<ul class="demos">
-	  <li><a href="demos-private/sample-course/mini-style-guide.html">{demo: MUN Academic}</a></li>
-	  <li><a href="demos-private/ed-4624/mini-style-guide.html">{demo: Coltrane}</a></li>
-	  <li><a href="http://www.csszengarden.com/">{demo: CSS zen garden}</a></li>
-	</ul>
-   </div>
- </section>
+		<ul class="demos">
+	  	<li><a href="demos-private/sample-course/mini-style-guide.html">{demo: MUN Academic}</a></li>
+	  	<li><a href="demos-private/ed-4624/mini-style-guide.html">{demo: Coltrane}</a></li>
+	  	<li><a href="http://www.csszengarden.com/">{demo: CSS zen garden}</a></li>
+		</ul>
+	</div>
+</section>
 				
 <section class="slide">
   <h2>6. Forms</h2> 
     <div class="step" id="step6">
-	<p class="speaker-note">Forms are complex by nature. Help reduce the complexity by keepings things simple. Don&apos;t ask for data you don't need. Use</p>
+	<p class="speaker-note">Forms are complex by nature because they do things. Help reduce the complexity by keepings things simple. Don&apos;t ask for data you don't need. The <abbr>HTML</abbr> standard has a rich set of elements and attributes to keeps forms meaningful.</p>
 	<ul class="speaker-note">
 		<li>WCAG: Perceivable, Operable, Understandable, Robust</li>
 	</ul>
     <ul>
 		<li><h3>Label all form controls</h3>
-			<p class="speaker-note">Associate a <code>label</code> to every form <code>control</code> even if not needed for a visual users.</p></li>
-    	<li><h3>Keep form elements organized and meaningful</h3>
-			<p class="speaker-note">Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization and meaning.</p></li>
-	   <li><h3>Users interact with forms</h3>
-			<p>Forms have to work with all devices so all users can complete the task - mouse, keyboard only, touch screen, mobile. One may need to use WAI-ARIA (Accessible Rich Internet Applications)<br> to make forms fully accessible.</p></li>
+			<p class="speaker-note">Associate every form <code>control</code> with a <code>label</code> using the <code>for</code> attribute.</p></li>
+    	<li><h3>Keep form elements organized</h3>
+			<p class="speaker-note">Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization that will help a user progress through a form.</p></li>
+	   <li><h3>Use <abbr>WAI-ARIA</abbr> for alerts</h3>
+			<p><abbr>WAI-ARIA</abbr> (Accessible Rich Internet Applications) just reach recommendation status in March 2014. It is the standard that can make complex interactions accessible. It describes functionality of interactions. Use <abbr>WAI-ARIA</abbr> to make error messages fully accessible<br> <code>role="alert"</code>.</p></li>
     </ul>
-    <p class="speaker-note"><strong>Note:</strong> Most lawsuits around <em>Web Accessibility</em> have been regarding inaccessible forms &amp; inaccessible tables. (Target, <abbr title="Sidney Organizing Committee for the Olympic Games">SOCOG</abbr> and Government of Canada.)</p>  
+    <p class="speaker-note"><strong>Note:</strong> Most lawsuits around <em>Web Accessibility</em> have been regarding inaccessible forms &amp; inaccessible tables.</p>  
     </div>    
 </section>
 				
@@ -430,18 +428,18 @@
 		 <ul class="speaker-note">
 				<li>WCAG: Perceivable, Operable</li> 
 			</ul>
-	<ol>
-	  <li><h3>No auto play</h3>
-		<p class="speaker-note">Leave control with the user.</p>
-		</li>
-	  <li><h3>Text alternatives include:</h3></p>
+	<ul>
+	  <li><h3>Alternative formats include:</h3></p>
           <ul>
-            <li>Accessible Transcripts <a href="demos-private/ed-3650/demo-7-video.html">{demo}</a></li>
-            <li>Captions (closed or open)</li>
-            <li>Audio description (aka video description)</li>
+            <li><h4>Transcripts <small><a href="demos-private/ed-3650/demo-7-video.html">{demo}</a></small></h4> </li>
+            <li><h4>Captions <small>(closed or open)</small></h4> </li>
+            <li><h4>Audio description <small>(aka video description)</small></h4></li>
           </ul>
 	  </li>
-    </ol>
+		 <li><h3>No auto play</h3>
+				<p class="speaker-note">Leave control with the user.</p>
+			</li>
+    </ul>
 	<h3>AccessForEveryone on YouTube</h3>
     <ul>
       <li><a href="http://www.youtube.com/watch?v=rx2Elu7Ik3Y">Andy Griffith Show</a> - captions &amp; audio description with synthetic speech</li>   
@@ -454,14 +452,14 @@
   <h2>8. Multimedia</h2>
     <div class="step" id="step8">
 	<ul class="speaker-note">
-	  <li>WCAG and WAI-ARIA</li>
+	  <li>WCAG and WAI-ARIA: Perceivable, Operable</li>
 	</ul>
-	<p>Interactive web components such games and learning activities are <strong>complex</strong>.</p>
+	<p>Like forms, interactive web components such games and learning activities are <strong>complex</strong>.</p>
     <ul>
       <li>WAI-ARIA: Accessible Rich Internet Applications</li>
       <li>Graceful degradation techniques.</li>
-	  <li>Test.</li>
-	  <li>Provide equivalent alternatives.</li>
+	  	<li>Test.</li>
+	  	<li>Provide equivalent alternatives.</li>
     </ul>
 	<ul class="demos">
 	  <li><a href="demos-private/lwso-1000/demo-8-tool-tips.html">{demo: tool tips}</a></li>
@@ -472,10 +470,15 @@
 <section class="slide">  
   <h2>9. PDF</h2> 
 	<div class="step" id="step9">
+		<p>Like HTML <abbr title="Portable Document Format">PDF</abbr> is a web standard. <span class="speaker-note">To make it accessible you follow many of the same concepts to meet the WCAG</span>.</li> 
     <ul>
-  	  <li><abbr title="Portable Document Format">PDF</abbr> has its own standard <span class="speaker-note">which covers many of the same concepts as making html content accessible.</span></li>
-      <li>Must be tagged to be accessible.</li>
-	  <li>Can it be converted to <abbr>HTML</abbr>? Is it feasible?</li>
+			<li><h3>Convert to <abbr>HTML</abbr>?</h3> Is it feasible to convert the PDF to HTML?</li>
+			<li><h3>Make the PDF Accessible</h3>
+				<ul>
+  	  <li><h4>Declare the language</h4></li>
+      <li><h4>Add Tags</h3> Tags code the structural meaning into the PDF.</li>
+	  	<li><h4>Define reading order</h4></li> 
+			<li><h4>Add alternative text</h4> for images.</li></ul></li>
     </ul>    
    </div>
  </section>	
@@ -483,10 +486,10 @@
 <section class="slide">
   <h2>Why do all this?</h2> 
 	 <ul>
-  	  <li>Moral reason: It's just the right thing to do.</li>  
-	    <li>Quality assurance: Improved quality saves maintenance costs and makes the course content/site more future compatible.</li>
-			<li>Good for business: You reach more people; improve usability for everyone (also increasing number of users); improved quality bigger return on your investment.</li>
-	  <li>In many countries, it's the law.</li>
+  	  <li><h3>Moral reasons</h3> It's just the right thing to do.</li>  
+	    <li><h3>Quality assurance</h3> Improved quality saves maintenance costs and makes the course content/site more future compatible.</li>
+			<li><h3>Good for business</h3> You reach more people; improve usability for everyone (also increasing number of users); improved quality bigger return on your investment.</li>
+	  	<li><h3>It's the law</h3> in many countries, it's the law.</li>
     </ul>
 </section>
 
@@ -545,6 +548,7 @@
     <ul> 
 		 <li>Horton, S. &amp; Quesenbery, W. (2014) <em>A Web For Everyone.</em> <a href="http://rosenfeldmedia.com/books/a-web-for-everyone/">http://rosenfeldmedia.com/books/a-web-for-everyone/</a></li>
     	<li>Clark, J. (2003) <em>Building accessible websites.</em> Indianapolis: New Riders.</li>
+<li>Clark, J. (2005) <a href="http://alistapart.com/article/pdf_accessibility">Facts and Opinions About PDF Accessibility</a>. Retrieved from: <em><a href="alistapart.com/">A List Apart</a></em>.</li>
 <li>Smith, T. (2014) <em>Making Web Content Accessibile in 10 Steps or Less</em> <a href="http://www.delts.mun.ca/oew.php">http://www.delts.mun.ca/oew.php</a></li>
     	<li>Accessible Icon Project: <a href="http://www.accessibleicon.org/">http://www.accessibleicon.org/</a></li>
     	<li><abb>W3C</abb>: <a href="http://www.w3.org/">http://www.w3.org/</a></li>
