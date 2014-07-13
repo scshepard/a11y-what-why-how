@@ -1,13 +1,20 @@
 /* Custom  CSS */
-
+figure img {
+	margin-bottom: 0.25em;   
+}
 figcaption {
 	text-align: center;
+	margin: 0 0 1em 0;
+}
+.slide-note {
+	font-size: 150%;
 }
 small {
 	font-size: 80%;
 }
 .speaker-note {
 	font-size: 1px;
+	display: block;
 	text-indent: -10000em;
 }
 .speaker-note {
@@ -32,7 +39,7 @@ small {
 }
 .step {
 	background: transparent no-repeat bottom right;
-	min-height: 700px;
+	min-height: 1000px;
 	margin: 0 auto;
 }
 .step ol {
@@ -46,7 +53,7 @@ small {
   background-image: url(../img/graphics/individual-stairs-1.png);
 }
 #step2 {
-  background-image: url(../img/graphics/1ndividual-stairs-2.png);
+  background-image: url(../img/graphics/individual-stairs-2.png);
 }
 #step3 {
   background-image: url(../img/graphics/individual-stairs-3.png);
@@ -113,4 +120,10 @@ small {
 }
 .span-two {
 	width: 32%;
+}
+.demo {
+	width: 60%;
+	border-top: 1px solid;
+	list-style: none;
+	font-size: 150%;
 }
