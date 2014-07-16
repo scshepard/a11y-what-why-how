@@ -6,11 +6,13 @@ figcaption {
 	text-align: center;
 	margin: 0 0 1em 0;
 }
-.slide-note {
-	font-size: 150%;
-}
 small {
 	font-size: 80%;
+} 
+.slide-note,
+.demo,
+.wcag-note {
+	font-size: 150%;
 }
 .speaker-note {
 	font-size: 1px;
@@ -19,7 +21,15 @@ small {
 }
 .speaker-note {
 	list-style-type: none;
-} 
+}
+.demo, .wcag-note {
+	margin: 1em 0 0 0;
+	list-style: none; 
+}
+.wcag-note {
+	color: #888;
+	font-style: italic;
+}
 #what-it-takes {
 	width: 40%;
 	float: right;
@@ -120,10 +130,4 @@ small {
 }
 .span-two {
 	width: 32%;
-}
-.demo {
-	width: 60%;
-	border-top: 1px solid;
-	list-style: none;
-	font-size: 150%;
 }
